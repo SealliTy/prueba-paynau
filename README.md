@@ -42,6 +42,7 @@ Esto levanta un contenedor PostgreSQL en el puerto `5432`.
 
 ```bash
 cd backend
+cp .env.example .env
 pnpm install
 pnpm start:dev
 ```
@@ -52,6 +53,7 @@ El servidor queda disponible en `http://localhost:3001`.
 
 ```bash
 cd frontend
+cp .env.example .env
 pnpm install
 pnpm dev
 ```
