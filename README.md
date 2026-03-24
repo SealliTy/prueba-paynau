@@ -10,12 +10,6 @@ API REST construida con NestJS + TypeORM + PostgreSQL.
 
 ## Configuración
 
-Copia el archivo de variables de entorno:
-
-```bash
-cp backend/.env.example backend/.env
-```
-
 Valores por defecto en `.env`:
 
 ```env
